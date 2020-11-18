@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+
+@import "~bulma/sass/utilities/_all";
+
+.navbar {
+  background-color: #101219;
+}
+.navbar-item img {
+  max-height: 300px !important;
+}
+// Set your colors
+$primary: black;
+$primary-invert: blue;
+$twitter: #4099ff;
+$twitter-invert: findColorInvert($twitter);
+$primary-background: #171e29;
+$primary-dark-navbar: #101219;
+$primary-foreground: #222c3c;
+$menu-item-active-background-color:lighten($primary-foreground, 10%);
+// Links
+$link: #ff4653;
+$link-hover: white;
+$link-invert: findColorInvert(#8EACC5);
+$link-focus-border: $primary;
+$background: $primary;
+$border: #ff4653;
+
+$table-body-background-color: $primary-foreground;
+$table-background-color: $primary-foreground;
+$table-striped-row-even-background-color: lighten(
+  $primary-foreground,
+  5%
+);
+$table-striped-row-even-hover-background-color: lighten(
+  $primary-foreground,
+  15%
+);
+$table-color: #ffffff;
+$table-cell-heading-color: #ffffff;
+$table-head-cell-color: #ffffff;
+$table-row-hover-background-color: lighten($primary-foreground, 10%);
+
+$content-blockquote-background-color: $primary-foreground;
+
+$box-background-color: $primary-foreground;
+$input-background-color: $primary-foreground;
+$input-color: #ffffff;
+
+$navbar-background-color: $primary-dark-navbar;
+$navbar-dropdown-background-color: $primary-dark-navbar;
+$navbar-item-hover-background-color: $primary-dark-navbar;
+$navbar-dropdown-item-hover-color: #8c67ef;
+
+$card-background-color: $primary-foreground;
+
+$title-color: #ffffff;
+$subtitle-color: #ffffff;
+$label-color: #ffffff;
+$text: #ffffff;
+
+$button-color: #ffffff;
+$button-border-color: #ff4653;
+$button-hover-border-color: #ff4653;
+$button-background-color: #ff4653;
+
+$menu-item-hover-background-color: lighten($primary-foreground, 10%);
+$menu-item-hover-color: white;
+$dropdown-item-color: white;
+$dropdown-content-background-color: $primary-foreground;
+$dropdown-item-hover-background-color: $primary-background;
+$dropdown-item-hover-color: white;
+
+$modal-card-head-background-color: $primary-foreground;
+$modal-card-body-background-color: $primary-background;
+$modal-card-title-color: white;
+
+$input-icon-active-color: #ff4653;
+$input-hover-border-color: #ff4653;
+$input-border-color: #ff4653;
+$input-icon-color: #ff4653;
+
+//this is the pink from the icon #ff4653 
+.tabs {
+  li.is-active a {
+    background-color: #1b2431 !important;
+    color:#ffffff !important;
+  }
+
+  a:hover {
+    background-color: #ff465298 !important;
+    color: #fff !important;
+  }
+}
+// stats table header
+.white-header {
+  color: white !important;
+}
+
+tr.is-victory {
+  background: #294731;
+}
+
+#app {
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.custom-router {
+  background-color: #171e29;
+}
+.navbar-link {
+  color: white !important;
+}
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+@media screen and (min-width: 640px) {
+  .home-nav {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .navbar-item {
+    &.has-dropdown {
+      .nv-dropdown {
+        display: none;
+      }
+      &.is-active {
+        .nv-dropdown {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+body {
+  background-color: #171e29 !important;
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+}
+html {
+  background-color: #171e29 !important;
+}

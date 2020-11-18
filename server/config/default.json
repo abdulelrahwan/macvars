@@ -1,0 +1,36 @@
+{
+  "host": "localhost",
+  "port": 3000,
+  "public": "../public/",
+  "paginate": {
+      "default": 50,
+      "max": 50
+  },
+  "local": {
+      "usernameField": "email",
+      "passwordField": "password"
+  },
+  "authentication": {
+      "local": {
+          "usernameField": "email",
+          "passwordField": "password"
+      },
+      "entity": "user",
+      "service": "users",
+      "secret": "M9bXYaijR6I23FNkhmrpsJAMXRE=",
+      "authStrategies": [
+          "jwt",
+          "local"
+      ],
+      "jwtOptions": {
+          "header": {
+              "typ": "access"
+          },
+          "audience": "https://yourdomain.com",
+          "issuer": "feathers",
+          "algorithm": "HS256",
+          "expiresIn": "5000d"
+      }
+  },
+  "mongodb": "mongodb+srv://admin:admin123@cluster0.1icmf.mongodb.net/Valorantify?retryWrites=true&w=majority"
+}

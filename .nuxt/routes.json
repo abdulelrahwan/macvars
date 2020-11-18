@@ -1,0 +1,110 @@
+[
+  {
+    "name": "About",
+    "path": "/About",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\About.vue",
+    "chunkName": "pages/About"
+  },
+  {
+    "name": "Admin",
+    "path": "/Admin",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\Admin.vue",
+    "chunkName": "pages/Admin"
+  },
+  {
+    "name": "Brackets",
+    "path": "/Brackets",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\Brackets.vue",
+    "chunkName": "pages/Brackets"
+  },
+  {
+    "name": "forums",
+    "path": "/forums",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\forums\\\\index.vue",
+    "chunkName": "pages/forums/index"
+  },
+  {
+    "name": "Login",
+    "path": "/Login",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\Login.vue",
+    "chunkName": "pages/Login"
+  },
+  {
+    "name": "matches",
+    "path": "/matches",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\matches\\\\index.vue",
+    "chunkName": "pages/matches/index"
+  },
+  {
+    "name": "Reset",
+    "path": "/Reset",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\Reset.vue",
+    "chunkName": "pages/Reset"
+  },
+  {
+    "name": "Signup",
+    "path": "/Signup",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\Signup.vue",
+    "chunkName": "pages/Signup"
+  },
+  {
+    "name": "Verify",
+    "path": "/Verify",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\Verify.vue",
+    "chunkName": "pages/Verify"
+  },
+  {
+    "name": "forums-create",
+    "path": "/forums/create",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\forums\\\\create.vue",
+    "chunkName": "pages/forums/create"
+  },
+  {
+    "name": "teams-id",
+    "path": "/teams/:id?",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\teams\\\\_id.vue",
+    "chunkName": "pages/teams/_id"
+  },
+  {
+    "name": "user-id",
+    "path": "/user/:id?",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\user\\\\_id.vue",
+    "chunkName": "pages/user/_id"
+  },
+  {
+    "name": "events-id-bracket",
+    "path": "/events/:id?/bracket",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\events\\\\_id\\\\bracket.vue",
+    "chunkName": "pages/events/_id/bracket"
+  },
+  {
+    "name": "events-id-slug",
+    "path": "/events/:id?/:slug?",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\events\\\\_id\\\\_slug.vue",
+    "chunkName": "pages/events/_id/_slug"
+  },
+  {
+    "name": "forums-id-slug",
+    "path": "/forums/:id/:slug?",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\forums\\\\_id\\\\_slug.vue",
+    "chunkName": "pages/forums/_id/_slug"
+  },
+  {
+    "name": "matches-id-slug",
+    "path": "/matches/:id/:slug?",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\matches\\\\_id\\\\_slug.vue",
+    "chunkName": "pages/matches/_id/_slug"
+  },
+  {
+    "name": "players-id-slug",
+    "path": "/players/:id?/:slug?",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\players\\\\_id\\\\_slug.vue",
+    "chunkName": "pages/players/_id/_slug"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Abdul Elrahwa\\\\Documents\\\\macvarsity\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
